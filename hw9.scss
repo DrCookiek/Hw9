@@ -1,0 +1,50 @@
+$color1: rgb(74, 227, 74);
+$color2: rgb(229, 47, 47);
+$backGround: gray;
+$formColor: lightblue;
+$fontColor: white;
+$border: black;
+
+@mixin textColors($colors) {
+  color: $colors;
+}
+
+@mixin customDiv() {
+  height: 400px;
+  background-color: $formColor;
+  border: solid 5px $border;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#messages {
+  #success_message {
+    @include textColors($colors: $color1);
+  }
+  #error_message {
+    @include textColors($colors: $color2);
+  }
+}
+
+.container {
+  @include customDiv();
+}
+
+.red {
+  @include customDiv();
+  background-color: rgb(208, 134, 134);
+}
+.green {
+  @include customDiv();
+  background-color: rgb(163, 239, 162);
+}
+
+body {
+  background-color: $backGround;
+}
+
+form {
+  font-size: 30px;
+}

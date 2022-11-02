@@ -1,0 +1,48 @@
+#messages #success_message {
+  color: rgb(74, 227, 74);
+}
+#messages #error_message {
+  color: rgb(229, 47, 47);
+}
+
+.container {
+  height: 400px;
+  background-color: lightblue;
+  border: solid 5px black;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.red {
+  height: 400px;
+  background-color: lightblue;
+  border: solid 5px black;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(208, 134, 134);
+}
+
+.green {
+  height: 400px;
+  background-color: lightblue;
+  border: solid 5px black;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(163, 239, 162);
+}
+
+body {
+  background-color: gray;
+}
+
+form {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
